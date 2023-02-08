@@ -1,0 +1,155 @@
+
+
+.Intro
+{
+    height: 400px;
+    width: 100%;
+
+    margin-top: 50px;
+
+    position: relative;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+
+    display: flex;
+
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.Intro > .Slider
+{
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+
+    animation-name: IntroMovement;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+.Intro > .Slider > img
+{
+    width: 100vw;
+    height: fit-content;
+
+    object-fit: cover;
+}
+
+.Intro > .Slider > img.first
+{
+    position: relative;
+    bottom: 70%;
+}
+
+.Intro > .Slider > img.second
+{
+    position: relative;
+    bottom: 40%;
+}
+
+.Intro > .Slider > img.third
+{
+    position: relative;
+    bottom: 40%;
+}
+
+@keyframes IntroMovement {
+
+    0%
+    {
+        left: 0;
+    }
+
+    30%
+    {
+        left: 0;
+    }
+
+    33%
+    {
+        left: -100vw;
+    }
+
+    63%
+    {
+        left: -100vw;
+    }
+
+    66%
+    {
+        left: -200vw;
+    }
+
+    91%
+    {
+        left: -200vw;
+    }
+
+    100%
+    {
+        left: 0;
+    }
+
+}
+
+
+
+.Intro > .Text
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 75%;
+
+    padding-left: 15px;
+
+    /* background: #00000067;
+    backdrop-filter: blur(2px); */
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1;
+
+}
+
+.Intro > .Text > .Title
+{
+    margin: 5px 0;
+
+    font-size: 45px;
+    color: #ffffffe1;
+    font-weight: 500;
+
+}
+
+.Intro > .Text > .Under
+{
+    margin: 15px 0 25px 0;
+
+    font-size: 28px;
+    color: #ffffffc9;
+    font-weight: 500;
+
+}
+
+.Intro > .Darken
+{
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,269 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+
+.instructionsText{
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.253);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 160%;
+    text-align: left;
+}
+
+
+#embeddedContainer{
+    background-color: white;
+    height: 800px;
+    width: 35%;
+    margin-right: 2%;
+    margin-top: 3%;
+    float: right;
+}
+
+
+#diagramsContainer{
+    background-color: white;
+    height: 40%;
+}
+
+
+#diagram{
+    height: 100%;
+    width: 100%;
+}
+
+
+#formContainer{
+    background-color: white;
+    height: 60%;
+}
+
+
+.formTitle{
+    color: rgb(70, 70, 70);
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.153);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    height: 10%;
+}
+
+
+#form{
+    height: 90%;
+    width: 100%;
+}
+
+
+#instructionContainer{
+    background-color: white;
+    width: 30%;
+    height: 75vw;
+    margin-top: 3%;
+    margin-left: 6%;
+    display: inline-block;
+}
+
+
+#instructionsTitle{
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.253);
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Media queries */
+
+
+@media screen and (min-width: 320px){
+    #instructionsTitle{
+        font-size: 15px;
+        text-align: center;
+    }
+    .instructionsText{
+        font-size: 12px;
+        line-height: 140%;
+    }
+    #instructionContainer{
+        background-color: white;
+        height: fit-content;
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+
+    #embeddedContainer{
+        background-color: white;
+        height: 800px;
+        width: 85%;
+        margin: auto;
+        float: none;
+        margin-top: 25%;
+    }
+}
+
+
+@media screen and (min-width: 375px){
+    #instructionsTitle{
+        font-size: 15px;
+        text-align: center;
+    }
+    .instructionsText{
+        font-size: 12px;
+        line-height: 140%;
+    }
+    #instructionContainer{
+        background-color: white;
+        height: fit-content;
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+
+    #embeddedContainer{
+        background-color: white;
+        height: 800px;
+        width: 85%;
+        margin: auto;
+        float: none;
+        margin-top: 25%;
+    }
+}
+
+
+@media screen and(min-width: 425px){
+    #instructionsTitle{
+        font-size: 18px;
+    }
+    
+    .instructionsText{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    #instructionsTitle{
+        font-size: 22px;
+        text-align: center;
+    }
+    .instructionsText{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    #instructionContainer{
+        background-color: white;
+        height: fit-content;
+        width: 35%;
+        display: inline-block;
+        margin: 0;
+        margin-left: 6%;
+        margin-top: 2.5%;
+    }
+
+    #embeddedContainer{
+        background-color: white;
+        height: 800px;
+        width: 45%;
+        margin: 0;
+        margin-left: 3%;
+        margin-top: 4%;
+        float: right;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    .instructionsText{
+        text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.253);
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        line-height: 160%;
+        text-align: left;
+    }
+    
+    
+    #embeddedContainer{
+        background-color: white;
+        height: 800px;
+        width: 35%;
+        margin-right: 2%;
+        margin-top: 3%;
+        float: right;
+    }
+    
+    
+    #diagramsContainer{
+        background-color: white;
+        height: 40%;
+    }
+    
+    
+    #diagram{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    #formContainer{
+        background-color: white;
+        height: 60%;
+    }
+    
+    
+    .formTitle{
+        color: rgb(70, 70, 70);
+        text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.153);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        height: 10%;
+    }
+    
+    
+    #form{
+        height: 90%;
+        width: 100%;
+    }
+    
+    
+    #instructionContainer{
+        background-color: white;
+        width: 30%;
+        height: 75vw;
+        margin-top: 3%;
+        margin-left: 6%;
+        display: inline-block;
+    }
+    
+    
+    #instructionsTitle{
+        text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.253);
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    #instructionContainer{
+        width: 35%;
+    }
+    
+    
+    #instructionsTitle{
+        font-size: 25px;
+    }
+
+
+    .instructionsText{
+        font-size: 20px;
+    }
+
+
+    #embeddedContainer{
+        height: 1000px;
+        width: 45%;
+    }
+}

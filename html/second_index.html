@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main -->
+    <link rel="stylesheet" href="../css/main_style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Script -->
+    <script src="../js/main.js"></script>
+
+</head>
+<body>
+    
+    <header>
+
+        <div id="header">
+            <div class="headerButtonContainer">
+                <input type="button" class="headerButtons" id="aboutChallangeBtn" onclick="location.href='second_index.html';" value="Utmaningen">
+                <input type="button" class="headerButtons" id="aboutStalfarfarBtn" onclick="location.href='main_index.html';" value="Stålfarfar">
+            </div>
+            <div id="headerTitle">Stålfarfar Challange 2023</div>
+            <img id="headerPicture" src="../pictures/slutarRyka.png">
+        </div>
+
+    </header>
+    
+    <div id="instructionContainer">
+        <h1 id="instructionsTitle">Hur går det till?</h1>
+        <h1 class="instructionsText">Det är enkelt! Skriv upp hur många motordrivna kilometer du eller ni ersatt med muskelkraft och fyll sedan när som helst i formuläret nedan. Välj ett unikt namn för dig eller ditt lag och ange endast hela kilometrar. Använd sedan exakt samma namn igen när du registrerar nya kilometrar.</h1>
+        <br>
+        <h1 class="instructionsText">Då sammanställs den totala summan automatiskt i diagrammet. (Ibland kan det dock ta lite tid innan diagrammet uppdateras, så ha lite tålamod.)</h1>
+        <br>
+        <h1 class="instructionsText">Tagga gärna #stålfarfarchallenge i sociala medier och berätta vad du eller ditt lag gjort, så kan vi följa varandra och få pepp, inspiration och idéer. Och dela jättegärna denna sida!</h1>
+        <br>
+        <h1 class="instructionsText"> I detta lopp får alla vara med – oavsett om man är elit, pensionär, både och, eller något annat. Utmaningen pågår hela 2023 och det går närsomhelst att haka på.</h1>
+        <br>
+        <h1 class="instructionsText">Vi som står bakom Stålfarfar Challenge heter Jonas Nyman och Oskar Schönning. <!--Tillsammans har vi Instagramkontot Klimatsmart träning. Där kommer vi att delta, följa, kommentera och analysera loppet. Du hittar oss snart också i Facebookgruppen ”Vi som kör Stålfarfar Challenge 2023”-->.
+            
+            Det är bara att höra av dig om du har frågor, inspel och idéer!</h1>
+        <br>
+        <h1 class="instructionsText">Nu kör vi!</h1>
+    </div>
+
+    <div id="embeddedContainer">
+        
+        <div id="diagramsContainer">
+            <iframe id="diagram" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRF-rrXdTyuF8i6yuEwpDhv7QNkwm-iKgoKQphxZYijd9-s_aAvwMkSmE5N2VJIU4ILIgetjQ67o8Yq/pubhtml?gid=1682080216&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <br>
+        <div id="formContainer">
+            <h1 class="formTitle">Här kan du registrera dina kilometrar. <br>
+            OBS! Endast hela kilometrar
+            </h1>
+            <embed id="form" src="https://docs.google.com/forms/d/1CM9Qn2w3IFbhJ-gSi3McqCSgOeVZMV5C3fe5-3M4CPQ/viewform?edit_requested=true#responses">
+        </div>
+    
+    </div>
+
+    <footer>
+
+        <div id="footer">
+            <div id="socialsContainer">
+
+                <div id="instagramContainer">
+                    <img class="socialImages" id="instagramImg" src="../pictures/instagramIcon.png">
+                    <a class="socialLinks" id="instagramLink" href="https://www.instagram.com/klimatsmart_traning/" target="_blank">Instagram</a>
+                </div>
+
+                <div id="facebookContainer">
+                    <img class="socialImages" id="facebookImg" src="../pictures/facebookIcon.png">
+                    <a class="socialLinks" id="facebookLink" href="https://www.facebook.com/groups/980173002877997/?ref=share" target="_blank">Facebook</a>
+                </div>
+            
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

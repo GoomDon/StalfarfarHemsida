@@ -1,0 +1,78 @@
+
+
+.Stålfarfar
+{
+    
+    display: flex;
+    flex-direction: row;
+
+    padding: 80px 10vw;
+
+}
+
+.Stålfarfar > .Left
+{
+    width: 50%;   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Stålfarfar > .Left > .ImgBorder
+{
+    height: auto;
+}
+
+.Stålfarfar > .Left > .ImgBorder > img
+{
+    width: 500px;
+    height: auto;
+
+    margin-top: 30px;
+
+    border-radius: 7px;
+
+    box-shadow: 5px 5px 25px #00000058;
+}
+
+.Stålfarfar > .Right
+{
+    padding: 35px;
+}
+
+.Stålfarfar > .Right > .Title
+{
+    font-size: 28px;
+
+    margin: 0px 10px 10px 10px;
+}
+
+.Stålfarfar > .Right > .TextDropdown,
+.Stålfarfar > .Right > .TextNotDropdown
+{
+    font-size: 20px;
+
+    margin: 0;
+
+    line-height: 1.5em;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.VisaMer,
+.VisaMindre
+{
+    font-size: 20px;
+    color: #777777;
+
+    cursor: pointer;
+}
+
+.VisaMer:hover,
+.VisaMindre:hover
+{
+    color: #48b4fc;
+}

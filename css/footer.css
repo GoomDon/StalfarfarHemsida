@@ -1,0 +1,137 @@
+#footer{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    margin-top: 20%;
+}
+
+
+#socialsContainer{
+    height: 100px;
+    width: 15%;
+    margin-top: 40px;
+    margin-left: 2%;
+    overflow: hidden;
+}
+
+
+#instagramContainer{
+    height: 45%;
+    width: 100%;
+}
+
+
+#facebookContainer{
+    height: 45%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.socialImages{
+    width: 22%;
+    vertical-align:middle;  
+}
+
+
+.socialLinks{
+    color: rgb(70, 70, 70);
+    font-size: larger;
+    text-decoration: none;
+    vertical-align:middle;
+    margin-left: 5px;
+}
+
+
+.socialLinks:hover{
+    text-decoration: underline;
+}
+
+
+/* Media queries */
+
+
+@media screen and (min-width: 320px){
+    #socialsContainer{
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 375px){
+    #socialsContainer{
+        width: 40%;
+    }
+}
+
+
+@media screen and (min-width: 425px){
+    #socialsContainer{
+        width: 40%;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    #socialsContainer{
+        width: 25%;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    #footer{
+        background-color: #f3f3f3;
+        width: 100%;
+        height: 180px;
+        overflow: hidden;
+        margin-top: 20%;
+    }
+    
+    
+    #socialsContainer{
+        height: 100px;
+        width: 15%;
+        margin-top: 40px;
+        margin-left: 2%;
+        overflow: hidden;
+    }
+    
+    
+    #instagramContainer{
+        height: 45%;
+        width: 100%;
+    }
+    
+    
+    #facebookContainer{
+        height: 45%;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .socialImages{
+        width: 22%;
+        vertical-align:middle;  
+    }
+    
+    
+    .socialLinks{
+        color: rgb(70, 70, 70);
+        font-size: larger;
+        text-decoration: none;
+        vertical-align:middle;
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    #socialsContainer{
+        height: 125px;
+    }
+
+    .socialImages{
+        width: 15%;  
+    }
+}
